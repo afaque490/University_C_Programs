@@ -10,7 +10,7 @@ int main() {
     // Check if the ASCII code is within the valid range
     if (ascii_code >= 0 && ascii_code <= 255) {
         // Convert ASCII code to character and print
-        printf("The character corresponding to ASCII code %d is: %c\n", ascii_code, (char)ascii_code);
+        printf("The character corresponding to ASCII code %d is: %c\n", ascii_code, ascii_code);
     } else {
         // Print error message if ASCII code is out of range
         printf("Error: ASCII code must be in the range of 0 to 255.\n");
